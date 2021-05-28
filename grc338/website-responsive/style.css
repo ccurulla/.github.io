@@ -1,0 +1,95 @@
+/*CSS DOCUMENT*/
+
+
+div.container {
+    max-width: 50em;
+    margin: auto;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+h1 {
+    width: 8em;
+}
+
+h2 {
+	color: #28316B;
+}
+
+header {
+    background: #FFFFFF;
+    font-family: sans-serif;
+}
+
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-family: sans-serif;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 2em;
+    margin-right: 0.75em;
+
+}
+
+
+article {
+    background: #FFFFFF;
+    font-family: sans-serif;
+    padding: 1em;
+    font-size: 1.25em;
+}
+
+article p {
+    margin-left: 1em;
+    margin-right: 2.75em;
+}
+article ul {
+    text-align: left;
+}
+
+figure {
+    margin: 0;
+}
+
+aside {
+    background: #A4ADBA;
+    font-family: sans-serif;
+    padding: 0.5em;
+    padding-left: 2em;
+}
+
+footer {
+    background: #28316B;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 1em;
+    padding-left: 2em;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 50em) {
+    header {
+        display: grid;
+        grid-template-columns: 20em auto;
+    }
+
+    nav ul {
+        text-align: right;
+        padding-top: 3em;
+    }
+}
+
