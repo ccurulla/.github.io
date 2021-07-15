@@ -1,16 +1,27 @@
 /*CSS document*/
 
+@import url(<link rel="stylesheet" href="https://use.typekit.net/bsz7tya.css">)
+
+
+
 body {
 	margin: auto;
 }
 
+
 div.container {
     max-width: 40em;
     margin: auto;
+    background-color: #DDE5B6;
+    padding: 3em;
 }
 
 figure {
     margin: 0;
+}
+
+header img {
+	max-width: 7em;
 }
 
 img {
@@ -21,3 +32,55 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-family: catseye, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+        color: #788C40;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 0.75em;
+}
+
+p {
+	font-family: baskerville-urw, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h3 {
+	font-family: catseye, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.8em;
+}
+
+h2 {
+	font-family: catseye, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.6em;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.teaser {
+	background-color: #788C40;
+	padding: 1.5em;
+}
+
+
